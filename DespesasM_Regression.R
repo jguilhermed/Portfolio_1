@@ -63,8 +63,4 @@ despesasTeste$bmi30 <- ifelse(despesasTeste$bmi >= 30, 1,0)
 previsao3 <- predict(modelo_v2, despesasTeste)
 View(previsao3)
 
-#Como tinha-se baixa correlação entre as variáveis preditoras e variável target, 
-#optou-se pela tecnica de reforçar a mesma informação que havia em duas características.
-# Esta tecnica promove a colinearidade de variáveis, porém em alguns casos é válido pois melhoramos 
-# a acertividade do modelo...
 
